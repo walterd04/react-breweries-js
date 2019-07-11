@@ -27,7 +27,7 @@ class BreweryInfo extends Component {
         return (
             <div style={{ height: '20rem', width: '100%' }}>
                 <GoogleMapReact
-                bootstrapURLKeys={{ key: "AIzaSyBCn7UYYYzHCnv_qZ7sHY89gBbKjktRb58" }}
+                // bootstrapURLKeys={{ key: "" }} ENTER KEY HERE
                 defaultCenter={ defaultCenter }
                 defaultZoom={13}
                 yesIWantToUseGoogleMapApiInternals
